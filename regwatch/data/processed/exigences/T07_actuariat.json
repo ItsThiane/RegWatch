@@ -1,0 +1,72 @@
+[
+  {
+    "id_exigence": "SII-P2-DIR2009-Art48-§1a",
+    "theme_id": "T07",
+    "source_id": "DIR_2009_138",
+    "article": "Art. 48 §1 al. a) Dir. 2009/138/CE",
+    "niveau_obligation": "SHALL",
+    "texte_original": "Les entreprises d'assurance et de réassurance prévoient une fonction actuarielle efficace pour : a) coordonner le calcul des provisions techniques ; b) garantir le caractère approprié des méthodologies, des modèles sous-jacents et des hypothèses utilisées pour le calcul des provisions techniques.",
+    "texte_normalise": "Fonction actuarielle : coordination du calcul des provisions techniques et validation des méthodologies, modèles et hypothèses.",
+    "texte_verification": "Le rapport décrit-il le rôle de la fonction actuarielle dans la coordination du calcul des provisions techniques et dans la validation des méthodologies actuarielles, modèles et hypothèses utilisés ?",
+    "mots_cles": ["fonction actuarielle", "provisions techniques", "méthodologies actuarielles", "modèles", "hypothèses"],
+    "notes_interpretatives": "La fonction actuarielle est la 4ème fonction clé Solvabilité II. Son rôle de validation indépendante des PT est central. Vérifier qu'elle est décrite comme distincte du calcul lui-même.",
+    "entites_concernees": ["entreprise_assurance", "entreprise_reassurance"],
+    "actif": true
+  },
+  {
+    "id_exigence": "SII-P2-DIR2009-Art48-§1b",
+    "theme_id": "T07",
+    "source_id": "DIR_2009_138",
+    "article": "Art. 48 §1 al. b) et c) Dir. 2009/138/CE",
+    "niveau_obligation": "SHALL",
+    "texte_original": "La fonction actuarielle : c) évalue le caractère suffisant et la qualité des données utilisées lors du calcul des provisions techniques ; d) compare les meilleures estimations aux données d'expérience.",
+    "texte_normalise": "Fonction actuarielle : évaluation de la qualité des données et comparaison Best Estimate aux données d'expérience (back-testing).",
+    "texte_verification": "Le rapport mentionne-t-il l'évaluation de la qualité et de la suffisance des données utilisées pour les provisions techniques, et la réalisation de comparaisons entre les estimations actuarielles et les réalisations observées (back-testing) ?",
+    "mots_cles": ["qualité des données", "données d'expérience", "back-testing", "comparaison", "suffisance", "meilleures estimations"],
+    "notes_interpretatives": "Le back-testing (variance analysis) est une exigence de qualité actuarielle clé. Sa mention démontre la rigueur du processus de provisionnement.",
+    "entites_concernees": ["entreprise_assurance", "entreprise_reassurance"],
+    "actif": true
+  },
+  {
+    "id_exigence": "SII-P2-DIR2009-Art48-§1e",
+    "theme_id": "T07",
+    "source_id": "DIR_2009_138",
+    "article": "Art. 48 §1 al. e) Dir. 2009/138/CE",
+    "niveau_obligation": "SHALL",
+    "texte_original": "La fonction actuarielle émet un avis sur la politique globale de souscription et sur l'adéquation des dispositions prises en matière de réassurance.",
+    "texte_normalise": "Fonction actuarielle : avis sur la politique de souscription et l'adéquation du programme de réassurance.",
+    "texte_verification": "Le rapport indique-t-il que la fonction actuarielle émet un avis sur la politique de souscription de l'entreprise et sur l'adéquation du programme de réassurance, et décrit-il comment ces avis sont pris en compte ?",
+    "mots_cles": ["politique de souscription", "réassurance", "avis actuariel", "adéquation", "programme de réassurance"],
+    "notes_interpretatives": "Le rôle de la fonction actuarielle s'étend au-delà des PT. Son implication dans la souscription et la réassurance est souvent sous-documentée dans les SFCR.",
+    "entites_concernees": ["entreprise_assurance", "entreprise_reassurance"],
+    "actif": true
+  },
+  {
+    "id_exigence": "SII-P2-REG2015-Art272-§5",
+    "theme_id": "T07",
+    "source_id": "REG_2015_35",
+    "article": "Art. 272 §5 Règl. 2015/35",
+    "niveau_obligation": "SHALL",
+    "texte_original": "La fonction actuarielle fait rapport au moins annuellement à l'organe d'administration, de gestion ou de contrôle sur la fiabilité et le caractère adéquat du calcul des provisions techniques, en formulant un avis sur la politique globale de souscription et sur l'adéquation des dispositions prises en matière de réassurance.",
+    "texte_normalise": "Rapport annuel de la fonction actuarielle à l'organe de gouvernance sur la fiabilité des PT, la politique de souscription et la réassurance.",
+    "texte_verification": "Le rapport atteste-t-il que la fonction actuarielle remet annuellement un rapport à l'organe de gouvernance sur la fiabilité et l'adéquation des provisions techniques, couvrant également la politique de souscription et la réassurance ?",
+    "mots_cles": ["rapport actuariel", "rapport annuel", "organe de gouvernance", "fiabilité", "adéquation provisions"],
+    "notes_interpretatives": "L'existence de ce rapport annuel (Actuarial Function Report) est une exigence Pilier 2. Le SFCR n'a pas à en publier le contenu mais doit attester de son existence et de son périmètre.",
+    "entites_concernees": ["entreprise_assurance", "entreprise_reassurance"],
+    "actif": true
+  },
+  {
+    "id_exigence": "SII-P2-EIOPA-GL07-§1",
+    "theme_id": "T07",
+    "source_id": "EIOPA_SFCR",
+    "article": "Guideline 7 EIOPA-BoS-15/109",
+    "niveau_obligation": "SHOULD",
+    "texte_original": "Undertakings should describe the qualifications and experience of the persons responsible for carrying out the actuarial function, demonstrating their fit and proper assessment.",
+    "texte_normalise": "Description des qualifications et de l'expérience des personnes responsables de la fonction actuarielle (fit & proper).",
+    "texte_verification": "Le rapport décrit-il les qualifications professionnelles (diplômes, certifications actuarielles) et l'expérience des personnes responsables de la fonction actuarielle, attestant de leur caractère fit & proper pour ce rôle ?",
+    "mots_cles": ["qualifications actuarielles", "fit & proper actuariel", "certification", "IAF", "DAV", "Institut des Actuaires"],
+    "notes_interpretatives": "Une mention des qualifications actuarielles (membre d'un institut actuariel reconnu) renforce la crédibilité du rapport. Pas d'obligation de nommer les individus.",
+    "entites_concernees": ["entreprise_assurance", "entreprise_reassurance"],
+    "actif": true
+  }
+]
