@@ -86,12 +86,6 @@ cd regwatch
 python -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
 
-# Validation complète (93 tests, ~2 min)
-for f in tests/test_*.py; do python $f; done
-```
-
-## Utilisation rapide
-
 ```bash
 # Interface Streamlit
 streamlit run app.py
