@@ -1,0 +1,58 @@
+[
+  {
+    "id_exigence": "SII-P3-DIR2009-Art51-§1",
+    "theme_id": "T11",
+    "source_id": "DIR_2009_138",
+    "article": "Art. 51 §1 Dir. 2009/138/CE",
+    "niveau_obligation": "SHALL",
+    "texte_original": "Les entreprises d'assurance et de réassurance publient annuellement un rapport sur leur solvabilité et leur situation financière. Elles publient ce rapport au plus tard quatorze semaines après la fin de la période de référence annuelle.",
+    "texte_normalise": "Publication annuelle du SFCR dans un délai maximum de 14 semaines après la fin de l'exercice annuel.",
+    "texte_verification": "Le rapport mentionne-t-il sa date de publication ou de diffusion, permettant de vérifier le respect du délai réglementaire de 14 semaines après la clôture de l'exercice de référence ?",
+    "mots_cles": ["délai publication", "14 semaines", "publication annuelle", "date de publication", "clôture"],
+    "notes_interpretatives": "Pour un exercice au 31/12/N, le SFCR doit être publié avant le 1er avril N+1. Vérifier la date de publication mentionnée dans le document. Absence de date = non-conformité formelle.",
+    "entites_concernees": ["entreprise_assurance", "entreprise_reassurance"],
+    "actif": true
+  },
+  {
+    "id_exigence": "SII-P3-REG2015-Art308-§1",
+    "theme_id": "T11",
+    "source_id": "REG_2015_35",
+    "article": "Art. 308 §1 Règl. 2015/35",
+    "niveau_obligation": "SHALL",
+    "texte_original": "Les entreprises mettent à la disposition du public le rapport sur la solvabilité et la situation financière par voie électronique, notamment sur leur site internet. Ce rapport reste accessible au public pendant au moins cinq ans.",
+    "texte_normalise": "Publication électronique obligatoire du SFCR (site internet) avec conservation publique pendant au minimum 5 ans.",
+    "texte_verification": "Le rapport précise-t-il les modalités de sa mise à disposition au public, notamment via le site internet de l'entreprise, et indique-t-il les conditions d'accessibilité et de conservation du document sur une durée minimale de 5 ans ?",
+    "mots_cles": ["publication électronique", "site internet", "accessibilité publique", "5 ans", "conservation"],
+    "notes_interpretatives": "Vérifier la présence d'un lien ou d'une mention du site de publication. La conservation 5 ans est une exigence procédurale qui peut être décrite dans la politique de publication.",
+    "entites_concernees": ["entreprise_assurance", "entreprise_reassurance"],
+    "actif": true
+  },
+  {
+    "id_exigence": "SII-P3-DIR2009-Art54-§1",
+    "theme_id": "T11",
+    "source_id": "DIR_2009_138",
+    "article": "Art. 54 §1 Dir. 2009/138/CE",
+    "niveau_obligation": "SHALL",
+    "texte_original": "En cas d'évolution majeure affectant sensiblement la pertinence des informations publiées conformément à l'article 51, les entreprises publient des informations appropriées sur la nature et les effets de cette évolution majeure. Les informations mises à jour sont publiées dans les plus brefs délais.",
+    "texte_normalise": "Publication volontaire d'informations actualisées en cas d'évolution majeure affectant significativement les informations du SFCR.",
+    "texte_verification": "Le rapport mentionne-t-il l'obligation et le processus de mise à jour du SFCR en cours d'exercice en cas d'évolution majeure (changement significatif de solvabilité, événement exceptionnel) nécessitant une publication complémentaire ?",
+    "mots_cles": ["évolution majeure", "mise à jour", "publication complémentaire", "cours d'exercice", "événement exceptionnel"],
+    "notes_interpretatives": "Cette exigence s'applique aux événements post-publication ayant un impact significatif (catastrophe, dégradation majeure de solvabilité). Sa description dans le SFCR démontre la connaissance du cadre réglementaire.",
+    "entites_concernees": ["entreprise_assurance", "entreprise_reassurance"],
+    "actif": true
+  },
+  {
+    "id_exigence": "SII-P3-REG2015-Art308-§2",
+    "theme_id": "T11",
+    "source_id": "REG_2015_35",
+    "article": "Art. 308 §2 Règl. 2015/35",
+    "niveau_obligation": "SHOULD",
+    "texte_original": "Les entreprises devraient indiquer clairement dans le rapport l'exercice de référence auquel le rapport se rapporte, la date d'arrêté des données et la date de publication du rapport, afin de permettre aux utilisateurs de déterminer si les informations sont à jour.",
+    "texte_normalise": "Le rapport devrait indiquer clairement l'exercice de référence, la date d'arrêté des données et la date de publication.",
+    "texte_verification": "Le rapport indique-t-il clairement et de façon visible : (1) l'exercice de référence (ex. '31 décembre 2023'), (2) la date d'arrêté des données utilisées, et (3) la date de publication ou d'approbation du rapport ?",
+    "mots_cles": ["exercice de référence", "date d'arrêté", "date de publication", "approbation", "période couverte"],
+    "notes_interpretatives": "Ces trois dates doivent idéalement figurer en page de couverture ou en début de document. Leur absence crée une ambiguïté sur la fraîcheur des données.",
+    "entites_concernees": ["entreprise_assurance", "entreprise_reassurance"],
+    "actif": true
+  }
+]

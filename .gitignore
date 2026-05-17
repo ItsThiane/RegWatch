@@ -1,0 +1,56 @@
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+*/__pycache__/
+
+# Environnements virtuels
+venv/
+.venv/
+env/
+ENV/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+
+.ipynb_checkpoints/
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+.streamlit/secrets.toml
+
+.env
+*.env
+
+*.log
+
+# PDFs SFCR uploadés
+data/raw/*.pdf
+
+# Rapports générés
+data/rapports/
+
+data/vectorstore/
+chromadb/
+chroma/
+
+.cache/
+huggingface/
+hf_cache/
+
+
+.vscode/
+.idea/
+
+.DS_Store
+Thumbs.db
+
+*.tar
+docker-compose.override.yml
+
+ollama_models/

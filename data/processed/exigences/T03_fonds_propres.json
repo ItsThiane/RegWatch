@@ -1,0 +1,72 @@
+[
+  {
+    "id_exigence": "SII-P1-REG2015-Art262-§2a",
+    "theme_id": "T03",
+    "source_id": "REG_2015_35",
+    "article": "Art. 262 §2 al. a) Règl. 2015/35",
+    "niveau_obligation": "SHALL",
+    "texte_original": "Dans la section E, les entreprises publient une description de la structure, du montant et de la qualité des fonds propres à la fin de la période de référence, en distinguant les fonds propres de base et les fonds propres auxiliaires.",
+    "texte_normalise": "Section E : structure et montant des fonds propres distinguant fonds propres de base (capital, réserves, excédent actif/passif) et fonds propres auxiliaires.",
+    "texte_verification": "Le rapport présente-t-il la structure des fonds propres Solvabilité II en distinguant les fonds propres de base et les fonds propres auxiliaires, avec les montants correspondants ?",
+    "mots_cles": ["fonds propres", "fonds propres de base", "fonds propres auxiliaires", "structure capital", "section E"],
+    "notes_interpretatives": "La distinction base/auxiliaire est fondamentale en SII. Les fonds propres de base incluent l'excédent actif sur passif (différence BE). Les fonds auxiliaires incluent les appels de fonds non versés.",
+    "entites_concernees": ["entreprise_assurance", "entreprise_reassurance"],
+    "actif": true
+  },
+  {
+    "id_exigence": "SII-P1-REG2015-Art262-§2b",
+    "theme_id": "T03",
+    "source_id": "REG_2015_35",
+    "article": "Art. 262 §2 al. b) Règl. 2015/35",
+    "niveau_obligation": "SHALL",
+    "texte_original": "Les entreprises publient une analyse des évolutions importantes des fonds propres éligibles au cours de la période de référence.",
+    "texte_normalise": "Section E : analyse des variations significatives de fonds propres éligibles en cours d'exercice (émissions, remboursements, résultat, dividendes).",
+    "texte_verification": "Le rapport analyse-t-il les évolutions importantes des fonds propres éligibles survenues au cours de l'exercice (résultat de l'année, dividendes versés, émissions ou remboursements d'instruments de capital, effets de valorisation) ?",
+    "mots_cles": ["évolution fonds propres", "variation fonds propres", "résultat", "dividendes", "émission capital"],
+    "notes_interpretatives": "Un tableau de variation des fonds propres (N-1 → N) avec les principales causes de variation est une bonne pratique.",
+    "entites_concernees": ["entreprise_assurance", "entreprise_reassurance"],
+    "actif": true
+  },
+  {
+    "id_exigence": "SII-P1-DIR2009-Art94-§1",
+    "theme_id": "T03",
+    "source_id": "DIR_2009_138",
+    "article": "Art. 94 Dir. 2009/138/CE",
+    "niveau_obligation": "SHALL",
+    "texte_original": "Les fonds propres éligibles sont classés en trois niveaux (tiers) selon leur permanence, leur subordination et leur disponibilité. Le Tier 1 regroupe les éléments de la plus haute qualité, disponibles pour absorber les pertes en continuité d'exploitation et en liquidation.",
+    "texte_normalise": "Les fonds propres sont classés en Tier 1 (meilleure qualité), Tier 2 et Tier 3 selon leur disponibilité pour absorber les pertes.",
+    "texte_verification": "Le rapport présente-t-il la classification des fonds propres par niveau de qualité (Tier 1, Tier 2, Tier 3) avec les montants correspondants et leur éligibilité à la couverture du SCR et du MCR ?",
+    "mots_cles": ["Tier 1", "Tier 2", "Tier 3", "classification fonds propres", "éligibilité", "qualité capital"],
+    "notes_interpretatives": "Exigence centrale pour l'évaluation de la qualité du capital. Vérifier que les montants par Tier sont présentés et que les limites d'éligibilité (ex: Tier 2+3 ≤ 50% SCR) sont mentionnées.",
+    "entites_concernees": ["entreprise_assurance", "entreprise_reassurance"],
+    "actif": true
+  },
+  {
+    "id_exigence": "SII-P1-REG2015-Art69-§1",
+    "theme_id": "T03",
+    "source_id": "REG_2015_35",
+    "article": "Art. 69 §1 Règl. 2015/35",
+    "niveau_obligation": "SHOULD",
+    "texte_original": "Les entreprises devraient décrire les éléments de fonds propres significatifs, notamment les instruments de capital émis, avec indication de leurs caractéristiques principales (montant, durée, subordination, clauses de remboursement anticipé).",
+    "texte_normalise": "Description des instruments de capital significatifs émis par l'entreprise avec leurs caractéristiques principales.",
+    "texte_verification": "Pour les instruments de capital significatifs émis (obligations subordonnées, titres participatifs, etc.), le rapport décrit-il leurs caractéristiques principales : montant nominal, date d'échéance, subordination, et classification Tier ?",
+    "mots_cles": ["instruments capital", "obligations subordonnées", "titres participatifs", "caractéristiques", "subordination"],
+    "notes_interpretatives": "Applicable principalement aux grandes entreprises ayant émis des instruments de dette subordonnée. Si aucun instrument spécifique, cette exigence peut être brièvement traitée.",
+    "entites_concernees": ["entreprise_assurance", "entreprise_reassurance"],
+    "actif": true
+  },
+  {
+    "id_exigence": "SII-P1-REG2015-Art262-§3",
+    "theme_id": "T03",
+    "source_id": "REG_2015_35",
+    "article": "Art. 262 §3 Règl. 2015/35",
+    "niveau_obligation": "SHALL",
+    "texte_original": "Les entreprises indiquent si elles respectent les exigences en matière de fonds propres éligibles pour la couverture du SCR et du MCR, et précisent toute non-conformité avec les exigences réglementaires sur la période de référence.",
+    "texte_normalise": "Déclaration de conformité aux exigences de fonds propres éligibles pour la couverture du SCR et MCR, avec mention de toute non-conformité.",
+    "texte_verification": "Le rapport déclare-t-il explicitement que les fonds propres éligibles couvrent le SCR et le MCR, et signale-t-il toute période de non-conformité survenue au cours de l'exercice ?",
+    "mots_cles": ["conformité fonds propres", "couverture SCR", "couverture MCR", "non-conformité", "déclaration"],
+    "notes_interpretatives": "En cas de non-conformité passée (ratio < 100%), le rapport doit décrire les mesures correctives prises. L'absence de mention est acceptable uniquement si aucune non-conformité ne s'est produite.",
+    "entites_concernees": ["entreprise_assurance", "entreprise_reassurance"],
+    "actif": true
+  }
+]

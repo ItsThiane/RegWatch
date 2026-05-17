@@ -1,0 +1,57 @@
+services:
+
+  regwatch:
+    build: .
+    container_name: regwatch
+
+    ports:
+      - "8501:8501"
+
+    volumes:
+      - ./:/app
+      - ./data/vectorstore:/app/data/vectorstore
+      - ./data/raw:/app/data/raw
+      - ./data/rapports:/app/data/rapports
+
+    env_file:
+      - .env
+
+    environment:
+      - PYTHONUNBUFFERED=1
+      - STREAMLIT_SERVER_HEADLESS=true
+
+    restart: unless-stopped
+
+    depends_on:
+      - chroma
+      - ollama
+
+  chroma:
+    image: chromadb/chroma:latest
+
+    container_name: regwatch-chroma
+
+    ports:
+      - "8000:8000"
+
+    volumes:
+      - ./data/vectorstore:/chroma/chroma
+
+    restart: unless-stopped
+
+  ollama:
+    image: ollama/ollama
+
+    container_name: regwatch-ollama
+
+    ports:
+      - "11434:11434"
+
+    volumes:
+      - ollama_data:/root/.ollama
+
+    restart: unless-stopped
+
+
+volumes:
+  ollama_data:
