@@ -81,7 +81,7 @@ regwatch/
 ## Installation
 
 ```bash
-git clone <url-du-repo>
+git clone https://github.com/ItsThiane/RegWatch
 cd regwatch
 python -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
