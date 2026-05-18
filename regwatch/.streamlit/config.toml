@@ -1,8 +1,0 @@
-[server]
-fileWatcherType = "none"
-
-[logger]
-level = "error"
-
-[runner]
-fastReruns = true
